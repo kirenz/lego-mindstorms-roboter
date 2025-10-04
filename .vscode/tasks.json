@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Pybricks: scan devices", "type": "shell", "command": "uv run pybricksdev devices" },
+    { "label": "Pybricks: run main.py (BLE)", "type": "shell", "command": "uv run pybricksdev run src/main.py" }
+  ]
+}
