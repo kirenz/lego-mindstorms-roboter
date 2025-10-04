@@ -2,11 +2,9 @@
 
 Diese Anleitung zeigt, wie man den 51515-Hub mit **Python** programmieren kann (auf macOS).
 
-Wir nutzen **Pybricks** (läuft direkt auf dem Hub) und **uv** (verwaltet Python & Abhängigkeiten).
+Wir nutzen **Pybricks** (läuft direkt auf dem Hub) und **uv** (verwaltet Python).
 
 Am Ende kannst du aus **VS Code** heraus dein Python-Programm per **Bluetooth** auf den Hub übertragen und starten.
-
-
 
 ## 1) `uv` installieren (einmalig)
 
@@ -18,17 +16,9 @@ Terminal öffnen und ausführen:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-Danach das Terminal einmal neu starten
+Danach das Terminal neu starten.
 
-
-Test:
-
-```bash
-uv --version
-```
-
-
-## 2) Dieses Repository klonen
+## 2) Dieses GitHub-Repository klonen
 
 In dem Terminal ausführen, wo du das Projekt speichern möchtest:
 
@@ -67,10 +57,9 @@ Damit der Hub Python-Programme **direkt auf dem Gerät** ausführt, muss einmali
 4. Nach dem Flashen den Hub **neu starten** (aus/ein).
 
 
-> **Wichtig:** Das **erste** Flashen muss über **USB** erfolgen. Danach kannst du via **Bluetooth** arbeiten.
+> **Wichtig:** Das erste Flashen muss über USB erfolgen. Danach kannst du via Bluetooth arbeiten.
 
-**Zurück zur LEGO-Firmware?**
-In `code.pybricks.com` unter **Tools → Restore Firmware** jederzeit möglich.
+
 
 ---
 
