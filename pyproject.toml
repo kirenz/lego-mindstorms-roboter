@@ -1,0 +1,10 @@
+[project]
+name = "lego-mindstorms-roboter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pybricks-stubs>=2.0.2",
+    "pybricksdev>=2.1.1",
+]
