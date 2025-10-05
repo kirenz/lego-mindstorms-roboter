@@ -1,10 +1,10 @@
 # LEGO® MINDSTORMS® Robot Inventor (51515) mit Python programmieren
 
-Diese Anleitung zeigt, wie man den 51515-Hub mit **Python** programmieren kann (auf macOS).
-
 Wir nutzen **Pybricks** (läuft direkt auf dem Hub) und **uv** (verwaltet Python).
 
 Am Ende kannst du aus **VS Code** heraus dein Python-Programm per **Bluetooth** auf den Hub übertragen und starten.
+
+---
 
 ## 1) `uv` installieren (einmalig)
 
@@ -43,7 +43,7 @@ Im Projektordner:
 uv sync
 ```
 
-uv erstellt die Python-Umgebung und installiert die Pakete 
+uv erstellt die Python-Umgebung und installiert die benötigte Software.
 
 ---
 
@@ -76,7 +76,7 @@ Damit der Hub Python-Programme **direkt auf dem Gerät** ausführt, muss einmali
 
 ### 6.1 Hub scannen (optional, zur Kontrolle)
 
-Im VS Code Terminal:
+Im VS Code Terminal (im Menü **Terminal → New Terminal**) ausführen:
 
 ```bash
 uv run pybricksdev devices
@@ -132,10 +132,3 @@ Ja. In `code.pybricks.com` → **Tools → Restore Firmware**.
 1. Hängt der **Motor/Sensor** am **richtigen Port** (z. B. `Port.A`)?
 2. Sehr kleines Testskript versuchen (z. B. nur LED umschalten), um Verbindungsprobleme auszuschließen.
 3. **Akkustand** des Hubs prüfen.
-
-**Keine Autovervollständigung (Pybricks):**
-
-1. In VS Code den Interpreter auf `.venv/bin/python` setzen (siehe oben).
-2. Terminal/VS Code neu öffnen.
-3. Ggf. `uv sync` erneut ausführen.
-
